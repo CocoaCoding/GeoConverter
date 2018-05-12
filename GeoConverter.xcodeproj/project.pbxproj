@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6723F820A7559A00932D7C /* GenericWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6723F720A7559A00932D7C /* GenericWindow.swift */; };
+		3F6723FA20A7572600932D7C /* Changelog in Resources */ = {isa = PBXBuildFile; fileRef = 3F6723F920A7572600932D7C /* Changelog */; };
 		3F90A485209BB86F00DD3EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90A484209BB86F00DD3EF3 /* AppDelegate.swift */; };
 		3F90A487209BB86F00DD3EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90A486209BB86F00DD3EF3 /* ViewController.swift */; };
 		3F90A489209BB86F00DD3EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F90A488209BB86F00DD3EF3 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F6723F720A7559A00932D7C /* GenericWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWindow.swift; sourceTree = "<group>"; };
+		3F6723F920A7572600932D7C /* Changelog */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changelog; sourceTree = "<group>"; };
 		3F90A481209BB86F00DD3EF3 /* GeoConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F90A484209BB86F00DD3EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F90A486209BB86F00DD3EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 		3F90A483209BB86F00DD3EF3 /* GeoConverter */ = {
 			isa = PBXGroup;
 			children = (
+				3F6723F720A7559A00932D7C /* GenericWindow.swift */,
 				3F90A484209BB86F00DD3EF3 /* AppDelegate.swift */,
 				3F90A486209BB86F00DD3EF3 /* ViewController.swift */,
 				3F90A494209BB96400DD3EF3 /* NumericOnlyInputFormatter.swift */,
@@ -62,6 +67,7 @@
 				3F90A48A209BB86F00DD3EF3 /* Main.storyboard */,
 				3F90A48D209BB86F00DD3EF3 /* Info.plist */,
 				3F90A48E209BB86F00DD3EF3 /* GeoConverter.entitlements */,
+				3F6723F920A7572600932D7C /* Changelog */,
 			);
 			path = GeoConverter;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F90A489209BB86F00DD3EF3 /* Assets.xcassets in Resources */,
+				3F6723FA20A7572600932D7C /* Changelog in Resources */,
 				3F90A48C209BB86F00DD3EF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				3F90A495209BB96400DD3EF3 /* NumericOnlyInputFormatter.swift in Sources */,
 				3F90A487209BB86F00DD3EF3 /* ViewController.swift in Sources */,
 				3F90A485209BB86F00DD3EF3 /* AppDelegate.swift in Sources */,
+				3F6723F820A7559A00932D7C /* GenericWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
